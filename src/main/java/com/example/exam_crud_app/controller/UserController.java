@@ -1,4 +1,4 @@
-package com.example.exam_crud_app;
+package com.example.exam_crud_app.controller;
 
 import com.example.exam_crud_app.model.User;
 import com.example.exam_crud_app.service.UserService;

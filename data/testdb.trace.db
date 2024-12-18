@@ -29,3 +29,9 @@ drop table users [42102-232]
 2024-12-18 17:13:04.918742+05:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "users" not found (this database is empty); SQL statement:
 select u1_0.id,u1_0.email,u1_0.name from "users" u1_0 [42104-232]
+2024-12-18 17:13:22.568817+05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (candidates are: "users"); SQL statement:
+select * from users [42103-232]
+2024-12-18 17:13:25.548566+05:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (candidates are: "users"); SQL statement:
+select * from users [42103-232]

@@ -1,6 +1,6 @@
 package com.example.exam_crud_app.service;
 
-import com.example.exam_crud_app.UserRepository;
+import com.example.exam_crud_app.repository.UserRepository;
 import com.example.exam_crud_app.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

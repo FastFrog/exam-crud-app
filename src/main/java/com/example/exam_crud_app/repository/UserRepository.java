@@ -1,4 +1,4 @@
-package com.example.exam_crud_app;
+package com.example.exam_crud_app.repository;
 
 import com.example.exam_crud_app.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
